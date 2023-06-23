@@ -1,6 +1,5 @@
-# TrueNAS-Scale
+# Installing TrueNAS Scale
 https://www.youtube.com/watch?v=C-UI8Wvl9YU
-# Installing TrueNAS
 
 ## Download and Install TrueNAS Scale
 1. Follow this [Link](https://www.truenas.com/download-truenas-scale/ "TrueNas Scale") to download TrueNAS Scale.
@@ -11,4 +10,9 @@ https://www.youtube.com/watch?v=C-UI8Wvl9YU
 1. Under Storage, Create a new pool. This pool is used for the AppData.
 2. Create any other storage pools too if you want
 
-##
+## Add TrueCharts Application Database
+1. Go to the Apps page from the top level SCALE menu
+2. Select Manage Catalogs tab on the Apps page
+3. Click Add Catalog
+4. After reading the iXsystems notice, click Continue and enter the required information: Name: `truecharts` Repository: `https://github.com/truecharts/catalog` Preferred Trains: `enterprise`,`stable`,`operators` (type each one manually) Branch: `main`
+Click Save and allow SCALE to refresh its catalog with TrueCharts (this may take a few minutes)
