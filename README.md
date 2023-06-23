@@ -3,7 +3,7 @@ https://www.youtube.com/watch?v=C-UI8Wvl9YU
 
 ## Download and Install TrueNAS Scale
 1. Follow this [Link](https://www.truenas.com/download-truenas-scale/ "TrueNas Scale") to download TrueNAS Scale.
-2. Create a bootable drive using the TrueNAS Scale .iso.
+2. Create a bootable drive using the .iso you downloaded.
 3. Visit the Web UI and check everything is working.
 
 ## Create Storage Pools
