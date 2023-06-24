@@ -15,20 +15,18 @@ For more detailed information and instructions, you can refer to the following Y
 ## Table of Contents
 
 1. [Installing TrueNAS SCALE](1.%20Installing%20TrueNAS%20Scale.md)
-2. Installing Plex Media Server (Work in Progress)
+2. [Installing Plex Media Server](2.%20Installing%20Plex%20Media%20Server.md)
 3. [Installing SABnzbd with VPN](2.%20Installing%20SABnzbd%20&%20VPN.md)
-4. Installing Sonarr (Work in Progress)
-5. Installing Radarr (Work in Progress)
-6. Installing OverSeer (Work in Progress)
-7. Installing NextCloud (Work in Progress)
-8. Installing Mealie (Work in Progress)
-9. Installing Tdarr (Work in Progress)
-10. Installing Home Assistant (Work in Progress)
+4. [Installing Sonarr](3.%20Installing%20Sonarr.md)
+5. [Installing Radarr](4.%20Installing%20Radarr.md)
+6. [Installing OverSeer](5.%20Installing%20OverSeer.md)
+7. [Installing NextCloud](6.%20Installing%20NextCloud.md)
+8. [Installing Mealie](7.%20Installing%20Mealie.md)
+9. [Installing Tdarr](8.%20Installing%20Tdarr.md)
+10. [Installing Home Assistant](9.%20Installing%20Home%20Assistant.md)
 
 Please note that the guide is a work in progress, and the sections marked as "Work in Progress" will be updated with the necessary instructions soon.
 
 ---
-<div style="text-align: center;">
-    <a href="README.md">Home</a> |
-    <a href="2.%20Installing%20SABnzbd%20&%20VPN.md">Next &rarr;</a>
-</div>
+
+[Home](README.md) | [Next: Installing SABnzbd and OpenVPN](2.%20Installing%20SABnzbd%20&%20VPN.md)
