@@ -5,7 +5,8 @@ Welcome to the TrueNAS SCALE NAS System Setup Guide!
 This guide will provide you with the necessary steps to set up your NAS system using TrueNAS SCALE. TrueNAS SCALE is an open-source operating system designed for network-attached storage and offers various features and applications.
 
 Please note that this guide is a quick reference and not an extensive tutorial.
-For more detailed information and instructions, you can refer to the following YouTube video guide/overview of TrueNAS SCALE: [TrueNAS SCALE Guide Video](https://www.youtube.com/watch?v=C-UI8Wvl9YU)
+
+For more detailed information and instructions, you can refer to the following YouTube video: [TrueNAS SCALE Guide Video](https://www.youtube.com/watch?v=C-UI8Wvl9YU)
 
 ## Table of Contents
 
