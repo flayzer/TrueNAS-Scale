@@ -1,4 +1,4 @@
-# Installing TrueNAS Scale
+# TrueNAS SCALE
 https://www.youtube.com/watch?v=C-UI8Wvl9YU
 
 ##### Table of Contents
