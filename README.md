@@ -29,4 +29,4 @@ Please note that the guide is a work in progress, and the sections marked as "Wo
 
 ---
 
-[Home](README.md) | [Next: Installing SABnzbd and OpenVPN](2.%20Installing%20SABnzbd%20&%20VPN.md)
+[Home](README.md) | [Next: Installing SABnzbd and OpenVPN](1.%20Installing%20TrueNAS%20Scale.md)
