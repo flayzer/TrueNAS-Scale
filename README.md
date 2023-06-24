@@ -1,6 +1,7 @@
 # TrueNAS SCALE
 https://www.youtube.com/watch?v=C-UI8Wvl9YU
 
+---
 ##### Table of Contents
 1. [Installing TrueNAS](1.%20Installing%20TrueNAS%20Scale.md)
 2. Installing Plex Media Server (Work in Progress)
@@ -13,3 +14,4 @@ https://www.youtube.com/watch?v=C-UI8Wvl9YU
 9. Installing Tdarr (Work in Progress)
 10. Installing Home Assistant (Work in Progress)
 
+---
