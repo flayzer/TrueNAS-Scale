@@ -28,3 +28,7 @@ For more detailed information and instructions, you can refer to the following Y
 Please note that the guide is a work in progress, and the sections marked as "Work in Progress" will be updated with the necessary instructions soon.
 
 ---
+<div style="text-align: center;">
+    <a href="README.md">Home</a> |
+    <a href="2.%20Installing%20SABnzbd%20&%20VPN.md">Next &rarr;</a>
+</div>
