@@ -9,7 +9,7 @@
 Follow these steps to install and configure Plex Media Server on TrueNAS:
 
 ## Prepare the Storage
-We are going to need three different storage volumes. Create these datasets in whichever pool you like.
+We are going to need three different datasets. Create these datasets in whichever pool you like.
 - Transcode Volume
 - Data Volume
 - Config Volume
