@@ -30,4 +30,4 @@
 
 
 ---
-[&larr; Previous: Installing Overseer](6.%20Installing%20Overseer.md) | [Home](README.md) | [Next: Installing Mealie &rarr;](8.%20Installing%20Mealie.md)
+[&larr; Previous: Installing Overseer](Installing%20Overseer.md) | [Home](README.md) | [Next: Installing Mealie &rarr;](Installing%20Mealie.md)
