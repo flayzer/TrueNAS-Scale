@@ -33,4 +33,4 @@ Follow these steps to install Mealie using TrueCharts:
 8. Once the installation is complete, you can access the Mealie web portal at `youripaddress:9925`.
 
 ---
-[&larr; Previous: Installing NextCloud](7.%20Installing%20NextCloud.md) | [Home](README.md) | [Next: Installing Tdarr &rarr;](9.%20Installing%20Tdarr.md)
+[&larr; Previous: Installing NextCloud](Installing%20NextCloud.md) | [Home](README.md) | [Next: Installing Tdarr &rarr;](Installing%20Tdarr.md)
