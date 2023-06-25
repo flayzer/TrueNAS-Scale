@@ -2,9 +2,9 @@
 
 #### Table of Contents
 - [Prepare the Storage](#prepare-the-storage)
-- [Instaling Plex Media Server](#installing-plex-media-server)
+- [Installing Plex Media Server](#installing-plex-media-server)
 - [Plex Configuration](#plex-configuration)
-- [updating](#updating)
+- [Updating](#updating)
 
 Follow these steps to install and configure Plex Media Server on TrueNAS:
 
@@ -15,18 +15,18 @@ We are going to need three different storage volumes. Create these datasets in w
 - Config Volume
 
 ## Installing Plex Media Server
-1. Log in to TrueNAS. From the dashboard screen, select "apps" in the left-side menu.
-2. Select the **Avaialable Applications** tab and search for *Plex*.
-3. Click install.
+1. Log in to TrueNAS. From the dashboard screen, select "Apps" in the left-side menu.
+2. Select the **Available Applications** tab and search for *Plex*.
+3. Click **Install**.
 4. Visit [plex.tv/claim](https://www.plex.tv/claim/) to get your claim token.
 5. Copy and paste this token into the **Plex Claim Token** field.
-6. Check the **Configure Host Network** under Networking.
+6. Check the **Configure Host Network** option under Networking.
 7. Configure the storage section. Set the host path for the `Transcode Volume`, `Data Volume`, and `Config Volume`.
-8. Finally click save.
+8. Finally, click **Save**.
 
-Once the TrueNAS setup is complete, your application will be ready for use.
+Once the TrueNAS setup is complete, your Plex Media Server application will be ready for use.
 
-Note:  With TrueNAS Scale, you don’t have to add an automatic start. As long as your host is up and running, your app will also be running. If you restart your host for any reason, you must head back to Installed Applications and manually start your Plex.
+Note: With TrueNAS Scale, you don't have to add an automatic start. As long as your host is up and running, your app will also be running. If you restart your host for any reason, you must go back to Installed Applications and manually start Plex.
 
 ## Plex Configuration
 
@@ -34,15 +34,15 @@ Note:  With TrueNAS Scale, you don’t have to add an automatic start. As long a
 2. Click on **Installed Applications**.
 3. Find `Plex` and click on the **Web Portal** button.
 4. Go through the wizard using the Web Interface.
-5. Add a name for your truenas Server
+5. Add a name for your TrueNAS Server.
 6. In the Media Library tab, select the content type you want and the location of the media.
-7. Add as many libraries as you need and click **next**
+7. Add as many libraries as you need and click **Next**.
 8. Finally, click **Done** to complete the server setup.
 
 ## Updating
-1. On the **Installed Applications** tab, locate the plex widget.
-2. Click on the elipses and select **Upgrade**.
+1. On the **Installed Applications** tab, locate the Plex widget.
+2. Click on the ellipsis (...) and select **Upgrade**.
 
 ---
 
-[&larr; Previous: Installing TrueNAS SCALE](1.%20Installing%20TrueNAS%20Scale.md) | [Home](README.md) | [Next: Installing SABnzbd and OpenVPN &rarr;](3.%20Installing%20SABnzbd%20&%20VPN.md)
+[&larr; Previous: Installing TrueNAS SCALE](Installing%20TrueNAS%20Scale.md) | [Home](README.md) | [Next: Installing SABnzbd and OpenVPN &rarr;](3.%20Installing%20SABnzbd%20%26%20VPN.md)
