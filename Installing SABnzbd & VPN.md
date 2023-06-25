@@ -102,4 +102,4 @@ That's it! You have now installed SABnzbd and set up the necessary VPN configura
 3. Click **Create backup**. This will save a backup in the `downloads/complete` directory.
 
 ---
-[&larr; Previous: Installing Plex Media Server](2.%20Installing%20Plex%20Media%20Server.md) | [Home](README.md) | [Next: Installing Sonarr &rarr;](4.%20Installing%20Sonarr.md)
+[&larr; Previous: Installing Plex Media Server](Installing%20Plex%20Media%20Server.md) | [Home](README.md) | [Next: Installing Sonarr &rarr;](Installing%20Sonarr.md)
