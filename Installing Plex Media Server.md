@@ -45,4 +45,4 @@ Note: With TrueNAS Scale, you don't have to add an automatic start. As long as y
 
 ---
 
-[&larr; Previous: Installing TrueNAS SCALE](Installing%20TrueNAS%20Scale.md) | [Home](README.md) | [Next: Installing SABnzbd and OpenVPN &rarr;](3.%20Installing%20SABnzbd%20%26%20VPN.md)
+[&larr; Previous: Installing TrueNAS SCALE](Installing%20TrueNAS%20Scale.md) | [Home](README.md) | [Next: Installing SABnzbd and OpenVPN &rarr;](Installing%20SABnzbd%20%26%20VPN.md)
