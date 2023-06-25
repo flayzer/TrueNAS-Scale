@@ -8,12 +8,11 @@
 - [Configure SABnzbd](#configure-sabnzbd)
 - [Backups](#backups)
 
-
 ## Configure Datasets
 Before installing SABnzbd and VPN, we need to set up the necessary storage configurations.
 
 1. Create a dataset for your Download Cache. This dataset will be used to store downloaded data before moving it to PlexMedia.
-2. Ensure that you have an SMB share set up for the next section. This will allow easy file transfer between systems. If you don't have an SMB share set up click [here](1.%20Installing%20TrueNAS%20Scale.md/#smb-share).
+2. Ensure that you have an SMB share set up for the next section. This will allow easy file transfer between systems. If you don't have an SMB share set up, click [here](1.%20Installing%20TrueNAS%20Scale.md/#smb-share).
 
 ## Prepare VPN
 To set up the VPN for your TrueNAS SCALE system, follow these steps:
@@ -23,7 +22,7 @@ To set up the VPN for your TrueNAS SCALE system, follow these steps:
 6. Copy the downloaded file to your TrueNAS system using the SMB share.
 
 ## Create Directories
-6. Under **System Settings**, Select **Shell**
+6. Under **System Settings**, select **Shell**.
 7. Navigate to the dataset you created earlier using `cd /mnt/path/to/folder/` and create the following directories:
    - `sudo mkdir downloads`
    - `sudo mkdir downloads/complete`
@@ -36,21 +35,23 @@ To install SABnzbd using TrueCharts, follow these steps:
 2. Select the **Available Applications** tab.
 3. Search for SABnzbd in the search bar.
 4. Click **Install** and wait for the installation to complete.
+
 ### Storage
-1. Locate **Storage and Persistance**
-2. Click the **Add** button next to the **additional App Storage** Label.
-3. Leave Type of Storage as **Host Path**
-4. Enable Automatic Permissions
-6. Mount the Download Dataset to a local path in the application. Something like `/mnt/data`
+1. Locate **Storage and Persistance**.
+2. Click the **Add** button next to the **Additional App Storage** label.
+3. Leave Type of Storage as **Host Path**.
+4. Enable Automatic Permissions.
+6. Mount the Download Dataset to a local path in the application, such as `/mnt/data`.
+
 ### VPN
 1. Scroll down to the **VPN** section in the right-side menu.
 2. Select **Gluetun** as the type.
 3. Optionally, enable the killswitch to disconnect the internet if the VPN fails or disconnects. You can exclude specific networks from the killswitch if needed.
 4. Under **VPN Environment Variables**, add the following values:
    - `VPN_SERVICE_PROVIDER` `=` `surfshark`
-   - `OPENVPN_USER` `=` `user credentials from earlier`
-   - `OPENVPN_PASSWORD` `=` `password credentials from earlier`
-5. Click **Save** and wait for the Aplication to install.
+   - `OPENVPN_USER` `=` *user credentials from earlier*
+   - `OPENVPN_PASSWORD` `=` *password credentials from earlier*
+5. Click **Save** and wait for the application to install.
 6. Once the application has installed, head over to the **Installed Applications** tab.
 
 That's it! You have now installed SABnzbd and set up the necessary VPN configurations. You can proceed to further configuration and customization based on your requirements.
@@ -60,39 +61,45 @@ That's it! You have now installed SABnzbd and set up the necessary VPN configura
 ### Quick-Start Wizard
 1. Locate the SABnzbd instance and wait for it to deploy.
 2. Click on **Open**. This will take you to the setup wizard.
-3. Click **next** and enter your usenet provider details. I'm using euro.fastusenet.org. (u: frogoful p: [usual pass])
-4. click the **Test Server** button and if everything is working conecting fine, click **Next**
-5. Click on **Go to SABnzbd**
+3. Click **Next** and enter your usenet provider details. For example, if using euro.fastusenet.org, use the following:
+   - Usenet server: euro.fastusenet.org
+   - Username: frogoful
+   - Password: *usual password*
+4. Click the **Test Server** button, and if the connection is successful, click **Next**.
+5. Click on **Go to SABnzbd**.
 
 ### Settings
-1. Settings are located in the top right hand corner, click on the **Settings Cog**.
-2. Change the settings under General at your own preference.
+1. Click on the **Settings Cog** located in the top right-hand corner.
+2. Change the settings under General according to your preference.
+
 ### Folders
 1. In the **Folders** tab, select **Browse** to select the **Temporary Download Folder**.
 2. Locate the `/mnt/data/downloads/incomplete` folder and click **Accept**.
 3. Select **Browse** to select the **Completed Download Folder**.
-4. Locate the `/mnt/data/downloads/complete` folder and cick **Accept**
+4. Locate the `/mnt/data/downloads/complete` folder and click **Accept**.
 5. Set the **Minimum Free Space for Temporary Download Folder**. Downloads will pause when there is less free space than this value.
 6. Enable **Auto Resume**. This will resume downloads once the minimum free space is available again.
-7. Set **Permissions for completed downloads** to `777`. (Everyone All access. You can leave it blank and it will inherit permissions from the dataset. You will need to set up permissions so plex, sonarr, and radarr have read/write permissions)
+7. Set **Permissions for completed downloads** to `777` (Everyone All access). Alternatively, leave it blank to inherit permissions from the dataset. Make sure to set up permissions for Plex, Sonarr, and Radarr to have read/write access.
+
 ### Servers
 1. Click **Show details** on the fastusenet server we added.
 2. Increase the **Connections** to `25`.
-### Categories
-These are useful if you have multiple installs of Sonarr or Radarr that are grabbing different qualities.
-(Probably not worth writing down here. Create the individual folders in downloads/completed for each Sonarr/Radarr instance and add them as a category)
-### Switches
-These are switches that I want to turn on.
-1. Enable **Direct Unpack**. This allows unpacking of files whilst downloading the next file, reducing post-processing time.
-2. Enable **On failure, try alternatice NZB**.
-3. Enable **Ignore Samples**.
 
-That's it! You have now installed SABnzbd and set up the necessary VPN configurations. You can now proceed to further adjust configuration based on your requirements.
+### Categories
+You can set up individual folders in `downloads/complete` for each Sonarr or Radarr instance and add them as a category if you have multiple installs grabbing different qualities. (Optional)
+
+### Switches
+Enable the following switches:
+1. **Direct Unpack**: This allows unpacking of files while downloading the next file, reducing post-processing time.
+2. **On failure, try alternative NZB**.
+3. **Ignore Samples**.
+
+That's it! You have now installed SABnzbd and set up the necessary VPN configurations. You can now proceed to further adjust the configuration based on your requirements.
 
 ## Backups
 1. Go to **Settings** and select the **General** tab.
 2. Scroll to the bottom of the page.
-3. Click **Create backup**. This will save a backup in the `downloads/completed` directory.
+3. Click **Create backup**. This will save a backup in the `downloads/complete` directory.
 
 ---
 [&larr; Previous: Installing Plex Media Server](2.%20Installing%20Plex%20Media%20Server.md) | [Home](README.md) | [Next: Installing Sonarr &rarr;](4.%20Installing%20Sonarr.md)
