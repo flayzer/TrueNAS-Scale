@@ -25,4 +25,4 @@ Please note that the guide is a work in progress, and the sections marked as "Wo
 
 ---
 
-| [Home](README.md) | [Next: Installing TrueNAS SCALE &rarr;](Installing%20TrueNAS%20Scale.md)
+| [Home](README.md) | [Next: Installing TrueNAS SCALE &rarr;](Installing%20TrueNAS%20SCALE.md)
