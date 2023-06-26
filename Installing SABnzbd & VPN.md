@@ -71,6 +71,7 @@ That's it! You have now installed SABnzbd and set up the necessary VPN configura
 ### Settings
 1. Click on the **Settings Cog** located in the top right-hand corner.
 2. Change the settings under General according to your preference.
+3. Enable **Advanced settings** in the top right hand corner.
 
 ### Folders
 1. In the **Folders** tab, select **Browse** to select the **Temporary Download Folder**.
