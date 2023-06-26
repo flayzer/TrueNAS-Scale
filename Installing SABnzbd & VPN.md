@@ -34,7 +34,7 @@ To install SABnzbd using TrueCharts, follow these steps:
 1. Go to the **Apps** page from the top-level SCALE menu.
 2. Select the **Available Applications** tab.
 3. Search for SABnzbd in the search bar.
-4. Click **Install** and wait for the installation to complete.
+4. Click **Install** and wait for the sidebar to open.
 
 ### Storage
 1. Locate **Storage and Persistance**.
