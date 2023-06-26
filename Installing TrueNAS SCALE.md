@@ -48,11 +48,11 @@ Once you have completed the initial setup, it is recommended to perform the foll
 
 ### User Accounts & Groups
 Here is a list of users and groups I am using:
-##### Groups
+#### Groups
 - download-access
 - plex-media-access
 
-##### Users
+#### Users
 These are the UID's I'm using for each user. They can all be personalised except for Nextcloud
 - twade - UID: 2132 (This can be any unsued number)
 - plex - UID: 972
