@@ -37,7 +37,7 @@ Note: With TrueNAS Scale, you don't have to add an automatic start. As long as y
 3. Find `Plex` and click on the **Web Portal** button.
 4. Go through the wizard using the Web Interface.
 5. Add a name for your TrueNAS Server.
-6. In the Media Library tab, select the content type you want and the location of the media.
+6. In the Media Library tab, select the content type you want and the location of the media. (The host path maps to the local `data` folder).
 7. Add as many libraries as you need and click **Next**.
 8. Finally, click **Done** to complete the server setup.
 
