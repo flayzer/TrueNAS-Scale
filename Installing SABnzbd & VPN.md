@@ -23,7 +23,7 @@ To set up the VPN for your TrueNAS SCALE system, follow these steps:
 
 ## Create Directories
 6. Under **System Settings**, select **Shell**.
-7. Navigate to the dataset you created earlier using `cd /mnt/path/to/folder/` and create the following directories:
+7. Navigate to the download cache dataset you created earlier using `cd /mnt/path/to/folder/` and create the following directories:
    - `sudo mkdir downloads`
    - `sudo mkdir downloads/complete`
    - `sudo mkdir downloads/incomplete`
