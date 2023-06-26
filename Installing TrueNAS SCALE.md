@@ -61,6 +61,7 @@ These are the UID's I'm using for each user. They can all be personalised except
 - tdarr - UID: (unknown)
 - www-data - UID: 33 (Used by Nextcloud)
 
+#### Create a user
 1. Navigate to the **Credentials** section in the TrueNAS Scale web interface.
 2. Select **Local Users** from the pop-up menu.
 3. Create user accounts with appropriate permissions and access levels for managing and accessing your NAS system.
