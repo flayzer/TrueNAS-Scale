@@ -12,7 +12,6 @@
 Before installing SABnzbd and VPN, we need to set up the necessary storage configurations.
 
 1. Create a dataset for your Download Cache. This dataset will be used to store downloaded data before moving it to PlexMedia.
-2. Ensure that you have an SMB share set up for the next section. This will allow easy file transfer between systems. If you don't have an SMB share set up, click [here](1.%20Installing%20TrueNAS%20Scale.md/#smb-share).
 
 ## Prepare VPN
 To set up the VPN for your TrueNAS SCALE system, follow these steps:
@@ -41,7 +40,7 @@ To install SABnzbd using TrueCharts, follow these steps:
 2. Click the **Add** button next to the **Additional App Storage** label.
 3. Leave Type of Storage as **Host Path**.
 4. Enable Automatic Permissions.
-6. Mount the Download Dataset to a local path in the application, such as `/mnt/data`.
+6. Mount the Download Dataset to a local path in the application, such as `/mnt/downloads`.
 
 ### VPN
 1. Scroll down to the **VPN** section in the right-side menu.
