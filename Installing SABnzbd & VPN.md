@@ -8,6 +8,8 @@
 - [Configure SABnzbd](#configure-sabnzbd)
 - [Backups](#backups)
 
+sabnzbd UID 955
+
 ## Configure Datasets
 Before installing SABnzbd and VPN, we need to set up the necessary storage configurations.
 
