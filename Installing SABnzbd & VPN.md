@@ -2,7 +2,6 @@
 
 ## Table of Contents
 - [Configure Datasets](#configure-datasets)
-- [Prepare VPN](#prepare-vpn)
 - [Create Directories](#create-directories)
 - [Install App from TrueCharts](#install-app-from-truecharts)
 - [Configure SABnzbd](#configure-sabnzbd)
@@ -14,12 +13,6 @@ sabnzbd UID 955
 Before installing SABnzbd and VPN, we need to set up the necessary storage configurations.
 
 1. Create a dataset for your Download Cache. This dataset will be used to store downloaded data before moving it to PlexMedia.
-
-## Prepare VPN
-To set up the VPN for your TrueNAS SCALE system, follow these steps:
-
-1. Visit [this page](https://my.surfshark.com/vpn/manual-setup/main/openvpn).
-2. Click on the **Credentials** tab and keep te tab open for later use.
 
 ## Create Directories
 6. Under **System Settings**, select **Shell**.
@@ -52,8 +45,8 @@ To install SABnzbd using TrueCharts, follow these steps:
 3. Optionally, enable the killswitch to disconnect the internet if the VPN fails or disconnects. You can exclude specific networks from the killswitch if needed.
 4. Under **VPN Environment Variables**, add the following values:
    - `VPN_SERVICE_PROVIDER` `=` `surfshark`
-   - `OPENVPN_USER` `=` *user credentials from earlier*
-   - `OPENVPN_PASSWORD` `=` *password credentials from earlier*
+   - `OPENVPN_USER` `=` *ask for surfshark email*
+   - `OPENVPN_PASSWORD` `=` `Fire4863!`
 5. Click **Save** and wait for the application to install.
 6. Once the application has installed, head over to the **Installed Applications** tab.
 
