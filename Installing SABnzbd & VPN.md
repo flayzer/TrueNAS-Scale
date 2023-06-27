@@ -41,7 +41,7 @@ To install SABnzbd using TrueCharts, follow these steps:
 2. Click the **Add** button next to the **Additional App Storage** label.
 3. Leave Type of Storage as **Host Path**.
 4. Enable Automatic Permissions.
-6. Mount the Download Dataset to a local path in the application, such as `/mnt/downloads`.
+6. Mount the Download Dataset to a local path in the application, such as `/mnt/downloads`. (Keep note of this mount path as you'll need to attach it in the same way on your sonarr/radarr instances).
 
 ### VPN
 1. Scroll down to the **VPN** section in the right-side menu.
