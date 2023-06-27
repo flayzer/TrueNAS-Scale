@@ -51,10 +51,16 @@ Here is a list of users and groups I am using:
 #### Groups
 - download-access
 - plex-media-access
+- twade - UID: 2132
+- plex - UID: 972
+- sabnzbd - UID: 955
+- sonarr-radarr - UID: 963
+- tdarr - UID: (unknown)
+- www-data - UID: 33 (Used by Nextcloud)
 
 #### Users
-These are the UID's I'm using for each user. They can all be personalised except for Nextcloud
-- twade - UID: 2132 (This can be any unsued number)
+These are the UID's I'm using for each user. They can be any unused UID number, except Nextcloud. Nextcloud runs as `www-data`
+- twade - UID: 2132
 - plex - UID: 972
 - sabnzbd - UID: 955
 - sonarr-radarr - UID: 963
