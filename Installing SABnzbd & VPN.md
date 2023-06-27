@@ -19,8 +19,7 @@ Before installing SABnzbd and VPN, we need to set up the necessary storage confi
 To set up the VPN for your TrueNAS SCALE system, follow these steps:
 
 1. Visit [this page](https://my.surfshark.com/vpn/manual-setup/main/openvpn).
-2. Click on the **Credentials** tab and save the provided credentials for later use.
-6. Copy the downloaded file to your TrueNAS system using the SMB share.
+2. Click on the **Credentials** tab and keep te tab open for later use.
 
 ## Create Directories
 6. Under **System Settings**, select **Shell**.
