@@ -67,6 +67,8 @@ That's it! You have now installed SABnzbd and set up the necessary VPN configura
    - Username: frogoful
    - Password: *usual password*
 4. Click the **Test Server** button, and if the connection is successful, click **Next**.
+5. Set the temporary download folder (incomplete).
+6. Set the completed download folder (complete)
 5. Click on **Go to SABnzbd**.
 
 ### Settings
