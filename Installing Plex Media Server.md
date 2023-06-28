@@ -22,9 +22,6 @@ We are going to need three different datasets. Create these datasets in whicheve
 3. Click **Install**.
 4. Visit [plex.tv/claim](https://www.plex.tv/claim/) to get your claim token.
 5. Copy and paste this token into the **Plex Claim Token** field.
-6. Set the user and group that runs the process (optional. default user is apps)
-   - `PUID` by default is `972`
-   - `GUID` by default is `972`
 7. Check the **Configure Host Network** option under Networking.
 8. Configure the storage section. Set the host path for the `Transcode Volume`, `Data Volume`, and `Config Volume`.
 9. Finally, click **Save**.
