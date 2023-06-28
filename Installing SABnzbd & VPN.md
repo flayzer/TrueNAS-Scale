@@ -54,7 +54,7 @@ To install SABnzbd using TrueCharts, follow these steps:
    - `VPN_TYPE` `=` `openvpn`
    - `OPENVPN_USER` `=` *credentials from earlier*
    - `OPENVPN_PASSWORD` `=` *credentials from earlier*
-   - `SERVER_REGIONS` `=` `Asia/Pacific
+   - `SERVER_REGIONS` `=` `Asia/Pacific`
 5. Click **Save** and wait for the application to install.
 6. Once the application has installed, head over to the **Installed Applications** tab.
 
