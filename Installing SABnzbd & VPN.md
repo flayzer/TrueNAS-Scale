@@ -8,7 +8,6 @@
 - [Configure SABnzbd](#configure-sabnzbd)
 - [Backups](#backups)
 
-sabnzbd UID 955
 
 ## Configure Datasets
 Before installing SABnzbd and VPN, we need to set up the necessary storage configurations.
@@ -41,8 +40,6 @@ To install SABnzbd using TrueCharts, follow these steps:
 3. Leave Type of Storage as **Host Path**.
 4. Enable Automatic Permissions.
 6. Mount the Download Dataset to a local path in the application, such as `/mnt/downloads`. (Keep note of this mount path as you'll need to attach it in the same way on your sonarr/radarr instances).
-### Security and Permissions
-1.Set the run as user and group IDs.
 
 
 ### VPN
