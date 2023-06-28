@@ -47,25 +47,15 @@ Before we begin, make sure you have downloaded the TrueNAS Scale installation IS
 Once you have completed the initial setup, it is recommended to perform the following additional configuration steps:
 
 ### User Accounts & Groups
-Here is a list of users and groups I am using:
+Here is a list of groups I am using:
 #### Groups
 - download-access
 - plex-media-access
-- twade - UID: 2132
-- plex - UID: 972
-- sabnzbd - UID: 955
-- sonarr-radarr - UID: 963
-- tdarr - UID: (unknown)
-- www-data - UID: 33 (Used by Nextcloud)
-
-#### Users
-These are the UID's I'm using for each user. They can be any unused UID number, except Nextcloud. Nextcloud runs as `www-data`
-- twade - UID: 2132
-- plex - UID: 972
-- sabnzbd - UID: 955
-- sonarr-radarr - UID: 963
-- tdarr - UID: (unknown)
-- www-data - UID: 33 (Used by Nextcloud)
+- nextcloud-access
+#### User Groups
+These users need to be apart of the following groups:
+- apps: `download-access`, `plex-media-access`
+- www-data: `nextcloud-access`
 
 #### Create a user
 1. Navigate to the **Credentials** section in the TrueNAS Scale web interface.
