@@ -51,8 +51,10 @@ To install SABnzbd using TrueCharts, follow these steps:
 3. Optionally, enable the killswitch to disconnect the internet if the VPN fails or disconnects. You can exclude specific networks from the killswitch if needed.
 4. Under **VPN Environment Variables**, add the following values:
    - `VPN_SERVICE_PROVIDER` `=` `surfshark`
-   - `OPENVPN_USER` `=` *ask for surfshark email*
-   - `OPENVPN_PASSWORD` `=` `Fire4863!`
+   - `VPN_TYPE` `=` `openvpn`
+   - `OPENVPN_USER` `=` *credentials from earlier*
+   - `OPENVPN_PASSWORD` `=` *credentials from earlier*
+   - `SERVER_REGIONS` `=` `Asia/Pacific
 5. Click **Save** and wait for the application to install.
 6. Once the application has installed, head over to the **Installed Applications** tab.
 
